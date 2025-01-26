@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzaplex online pizza</title>
+    <link rel="stylesheet" href="assests/styles.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/pizzaplex_logo.jpeg" alt="">
+        </a>
+        <!--menu icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!--links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu-pricing">Menu</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!--icons-->
+        <div class="header-icon">
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+        </div>
+
+        <!--search box-->
+        <div class="search-box">
+            <input type="search" placeholder="Search Here.......">
+        </div>
+    </header>
+
+    <!--home-->
+    <section class="home" id="home" >
+        <div class="home-text" >
+            <h1>IT'S pizza TIME</h1>
+            <p>Craving a slice of happiness? At PizzaPlex, we serve freshly baked, mouthwatering pizzas made with the finest ingredients. From classic pepperoni to gourmet creations, every bite is a celebration of flavor. Indulge in your favorite today!</p>
+            <a href="#products" class="btn-1">Order Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home_1.png" alt="">
+        </div>
+    </section>
+
+    <!--Welcome-->
+    <section class="welcome" id="welcome">
+        <div class="welcome-img">
+            <img src="img/welcome_1.jpg" alt="">
+        </div>
+        <div class="welcome-text">
+            <h2>Welcome to PizzaPlex A Restaurant</h2>
+            <p>"Welcome to PizzaPlex, where every meal feels like home. Step into our cozy restaurant and enjoy an unforgettable dining experience. From our handmade crusts to our signature toppings, we craft pizzas with love and passion. Gather your friends and family for a slice of happiness today!"</p>
+        </div>
+    </section>
+    
+    <!--Hot pizza-meals-->
+    <section class="pizza-meals">
+        <h2>Hot Pizza Meals</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <div class="pizza-container">
+          <div class="pizza-card">
+                <img src="img/American_Pizza.jpeg" alt="American Pizza">
+                <h3>American Pizza</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <div class="price-order">
+                <span>$1000</span>
+                <button>Order</button>
+                </div>
+          </div>
+          <div class="pizza-card">
+                <img src="img/Italian_Pizza.jpg" alt="Italian Pizza">
+                <h3>Italian Pizza</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <div class="price-order">
+                <span>$1200</span>
+                <button>Order</button>
+                </div>
+          </div>
+            <div class="pizza-card">
+                <img src="img/Greek_Pizza.jpg" alt="Greek Pizza">
+                <h3>Greek Pizza</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <div class="price-order">
+                <span>$1500</span>
+                <button>Order</button>
+                </div>
+          </div>
+        </div>
+      </section>
+        <!-- menu -->
+      <section class="menu-pricing" id="menu-pricing">
+        <h2>Our Menu Pricing</h2>
+        <p class="description">
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="menu-container">
+          <div class="menu-item">
+            <div class="item-left">
+              <img src="img/italian_pizza_1.jpg" alt="Italian Pizza">
+              <div>
+                <h3>Italian Pizza</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="price">Rs.2000.00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="item-left">
+              <img src="img/Hawaiian_Pizza.jpg" alt="Hawaiian Pizza">
+              <div>
+                <h3>Hawaiian Pizza</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="price">Rs.1999.00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="item-left">
+              <img src="img/Greek_Pizza_1.jpg" alt="Greek Pizza">
+              <div>
+                <h3>Greek Pizza</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="price">Rs.1500.00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="item-left">
+              <img src="img/bacon.jpg" alt="Bacon Crispy Thins">
+              <div>
+                <h3>Bacon Crispy Thins</h3>
+                <p>A small river named Duden flows by their place and supplies</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="price">Rs.1300.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+       <section class="about" id="about">
+        <div class="about_img">
+          <img src="/assests/img/bg_4.jpg" alt="">
+        </div>
+        <div class="about_text">
+          <h2>our history</h2>
+          <p>The journey of PizzaPlex began in 2020 with a simple idea: to create a place where people could enjoy authentic, handcrafted pizzas in a warm and welcoming atmosphere. Founded by [insert founder's name], our story is rooted in a love for great food, family traditions, and a commitment to excellence.
+
+            In the early days, we started as a small pizzeria with just a handful of recipes, all inspired by classic Italian flavors and the freshest ingredients. Word spread quickly, and before long, PizzaPlex became a beloved gathering spot for friends and families in the community.</p>
+          <p>Over the years, we’ve grown and evolved, adding new flavors and innovations to our menu while staying true to our roots. From traditional Margherita and Pepperoni pizzas to creative gourmet options, we’ve made it our mission to satisfy every palate.
+
+            Our dedication to quality doesn’t stop at our food. At PizzaPlex, we believe in creating memorable experiences. That’s why we prioritize exceptional customer service, a cozy dining environment, and fostering a sense of togetherness for everyone who walks through our doors.</p>
+          <p>Today, PizzaPlex is more than just a restaurant—it’s a symbol of passion, tradition, and innovation. We’re proud to serve you and look forward to continuing this delicious journey together. Thank you for being a part of our story!</p>
+          <a href="about.html" class="btn-1">Learn More</a>
+        </div>
+       </section>
+
+       <!-- products -->
+        <section class="products" id="products">
+         <div class="headings">
+          <h2>our popular products</h2>
+         </div> 
+         <!-- container -->
+          <div class="product_container">
+            <div class="box">
+              <img src="/assests/img/American_Pizza.jpeg" alt="">
+              <h3>American_Pizza</h3>
+              <div class="content">
+                <span>rs.1000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="/assests/img/American_Pizza.jpeg" alt="">
+              <h3>American_Pizza</h3>
+              <div class="content">
+                <span>rs.1000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="img/Greek_Pizza.jpg" alt="">
+              <h3>Greek_Pizza</h3>
+              <div class="content">
+                <span>rs.2000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="/assests/img/Hawaiian_Pizza.jpg" alt="">
+              <h3>Hawaiian_Pizza</h3>
+              <div class="content">
+                <span>rs.1000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="/assests/img/Italian_Pizza.jpg" alt="">
+              <h3>Italian_Pizza</h3>
+              <div class="content">
+                <span>rs.2000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="img/Italian_Pizza.jpg" alt="">
+              <h3>Italian_Pizza</h3>
+              <div class="content">
+                <span>rs.1000/=</span>
+                <!-- <a href="#">Add to cart</a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <!-- Cart Modal -->
+    <div id="cart-modal" class="hidden">
+      <div class="cart-content">
+          <h2>Your Cart</h2>
+          <ul id="cart-items"></ul>
+          <p id="total-price">Total: Rs. 0</p>
+          <button id="close-cart">Close</button>
+          <button id="checkout-btn">Checkout</button>
+      </div>
+  </div>
+
+  <!-- Checkout Form -->
+  <div id="checkout-modal" class="hidden">
+      <div class="checkout-content">
+          <h2>Checkout</h2>
+          <form id="checkout-form">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="address">Address:</label>
+                  <textarea id="address" name="address" required></textarea>
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                  <label for="payment-method">Payment Method:</label>
+                  <select id="payment-method" name="payment-method" required>
+                      <option value="">Select Payment Method</option>
+                      <option value="cash">Cash</option>
+                      <option value="credit-card">Credit Card</option>
+                  </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Place Order</button>
+          </form>
+      </div>
+  </div>
+
+      <!-- custormers -->
+       <section class="custormers" id="custormers">
+        <div class="heading">
+          <h2>our custormer's</h2>
+        </div>
+        <!-- container -->
+         <div class="custormer_container">
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>"PizzaPlex has the best pizza in town! The crust is perfectly crispy, and the toppings are always fresh and flavorful. I’ll never order from anywhere else!"</p>
+            <h2>tharusha dilantha</h2>
+            <img src="/img/custormer_1.jpg" alt="">
+          </div>
+
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>"Absolutely amazing experience! The delivery was super fast, and the pizza was piping hot when it arrived. Highly recommend PizzaPlex for all pizza lovers!"</p>
+            <h2>kushan laksitha</h2>
+            <img src="/img/custormer_2.jpg" alt="">
+          </div>
+
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>"I’m obsessed with the variety on the menu. Whether you love classic Margherita or bold flavors like BBQ Chicken, PizzaPlex has something for everyone. Delicious!"</p>
+            <h2>ashan oshada</h2>
+            <img src="/img/custormer_3.jpg" alt="">
+          </div>
+         </div>
+       </section>
+       
+<!-- Footer Section -->
+<footer class="footer-section bg-danger text-white py-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Us -->
+      <div class="col-md-4">
+        <h4 class="mb-3">About Us</h4>
+        <p>Welcome to PizzaPlex! We serve delicious, freshly made pizzas crafted with love and the finest ingredients. Our mission is simple – to bring people together over great food. Enjoy every slice</p>
+      </div>
+
+      <!-- Working Hours -->
+      <div class="col-md-4">
+        <h4 class="mb-3">Working Hours</h4>
+        <ul class="list-unstyled">
+          <li>Monday - Closed</li>
+          <li>Tuesday - 10am - 12am</li>
+          <li>Wednesday - 10am - 12am</li>
+          <li>Thursday - 10am - 12am</li>
+          <li>Friday - 10am - 1am</li>
+          <li>Saturday - 7am - 1am</li>
+          <li>Sunday - 7am - 1am</li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-4">
+        <h4 class="mb-3">Contact Us</h4>
+        <p>mihinthale,srilnka </p>
+        <p><strong>Phone:</strong> (457) 570 5682, (385) 620 756</p>
+        <p><strong>Email:</strong> info@butapizza.net</p>
+        <div class="social-icons">
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-pinterest"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-light">
+    <div class="text-center mt-3">
+      <p class="mb-0">Copyright © 2025 TharushaD | All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+      
+     
+    <script src="assests/script.js"></script>
+</body>
+</html>
